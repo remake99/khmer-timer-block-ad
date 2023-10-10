@@ -1,0 +1,19 @@
+{
+    "name": "khmer-timer-block-ad",
+    "description": "block ad in khmer-timer article",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.khmertimeskh.com/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "css":[
+                "index.css"
+            ]
+        }
+    ]
+}
